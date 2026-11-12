@@ -1,0 +1,8 @@
+{
+  "name": "klinik-animasi",
+  "private": true,
+  "description": "CLI HyperFrames terkunci untuk animasi iklan klinik. Pakai lewat tools/animasi/hf.sh, jangan npx hyperframes.",
+  "dependencies": {
+    "hyperframes": "0.9.8"
+  }
+}

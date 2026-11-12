@@ -1,6 +1,6 @@
 # Tim agent klinik
 
-Dibentuk 12 Nov 2026 (ACC Bapak lewat pop-up): 16 agent di `.claude/agents/`, struktur & cara kerja dari `referensi-rhj/agents/`, isi diganti untuk klinik (fakta/domain/staf RHJ dibuang, pagar klinik dipasang di tiap agent). Fakta layanan/harga/terapis diambil dari `knowledge/profil-klinik.md`; yang kosong ditulis "belum diisi".
+Operator harian: **Andrew** (digital marketing, ACC aksi marketing). Dibentuk 12 Nov 2026 (ACC Bapak lewat pop-up): 16 agent di `.claude/agents/`, struktur & cara kerja dari `referensi-rhj/agents/`, isi diganti untuk klinik (fakta/domain/staf RHJ dibuang, pagar klinik dipasang di tiap agent). Fakta layanan/harga/terapis diambil dari `knowledge/profil-klinik.md`; yang kosong ditulis "belum diisi".
 
 | Agent | Peran | Model |
 |---|---|---|

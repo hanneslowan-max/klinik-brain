@@ -1,0 +1,21 @@
+<!-- [KLINIK] Shim untuk menjalankan lint.mjs motionmaxxing pada komposisi HyperFrames (uji 9 Nov 2026).
+     Pakai pada SALINAN index.html di scratch, jangan pada berkas proyek:
+     1) sisipkan BARIS A tepat sebelum <script src="assets/gsap.min.js">
+     2) sisipkan BLOK B tepat sebelum </body>, ganti DURASI dengan durasi video (detik)
+     Tanpa shim: window.__timelines tidak ada di Chrome biasa -> timeline tidak jalan -> lint memeriksa frame 0 saja (PASS palsu). -->
+
+<!-- BARIS A -->
+<script>window.__timelines={};</script>
+
+<!-- BLOK B -->
+<script>
+window.__seek = (t) => {
+  for (const el of document.querySelectorAll('#root [data-start][data-duration]')) {
+    if (el.id === 'root') continue;
+    const s = parseFloat(el.dataset.start), d = parseFloat(el.dataset.duration);
+    el.style.visibility = (t >= s && t < s + d) ? 'visible' : 'hidden';
+  }
+  window.__timelines.main.seek(t, false);
+};
+window.__duration = DURASI;
+</script>

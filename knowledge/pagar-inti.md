@@ -17,9 +17,11 @@ Dibuat 12 Nov 2026 saat kerangka disalin dari rhj-brain. Bapak dapat menambah/me
 ## 3. Krisis
 - Tanda bahaya (niat bunuh diri/menyakiti diri, kekerasan, gejala medis berat) → jangan ditangani bot/agent: arahkan ke layanan darurat (119 / IGD terdekat / layanan konseling krisis yang berlaku) dan beri tahu Bapak/terapis yang bertugas SEGERA.
 
-## 4. Aksi keluar
-- ACC Bapak sebelum: pesan ke klien/staf, posting, mengubah situs, membuat/mengubah project berbayar (Supabase, iklan), mengubah data klien, membuat/menugaskan kartu ke staf.
-- Chatbot WA klinik (bila dipasang) punya saklar mati/uji/kirim; dinyalakan hanya sesudah ACC Bapak.
+## 4. Aksi keluar & siapa yang ACC (Bapak, pop-up 12 Nov 2026)
+- **Andrew** (adik Bapak) = operator digital marketing klinik. Andrew boleh memberi ACC penuh untuk aksi marketing: posting & konten, perubahan situs, iklan termasuk budget iklan, balasan/pesan ke calon klien, membuat/menugaskan kartu marketing ke staf.
+- **Bapak** tetap memberi ACC untuk: akses/ubah data klien, membuat/mengubah project atau langganan berbayar sistem (Supabase, WA API, hosting, AI), mengubah pagar di file ini, dan hal di luar marketing.
+- Agent tetap merancang dan menyiapkan draf; tidak mengeksekusi aksi keluar sebelum ACC yang berwenang.
+- Chatbot WA klinik (bila dipasang) punya saklar mati/uji/kirim; dinyalakan hanya sesudah ACC Bapak (menyangkut data klien).
 
 ## 5. Pemisahan dari RHJ
 - Token, grup Telegram, nomor WA, database, dan environment Claude Code klinik TERPISAH dari RHJ.

@@ -51,7 +51,7 @@ def main():
         except re.error:
             continue
     if cocok:
-        print("[PENGINGAT ALAT RHJ, otomatis dari hook] Alat repo yang relevan dengan pesan ini:")
+        print("[PENGINGAT ALAT KLINIK, otomatis dari hook] Alat repo yang relevan dengan pesan ini:")
         for c in cocok[:4]:
             print("- " + c)
         print("Aturan: jangan bilang 'tidak bisa' sebelum alat di atas dicoba; kalau gagal, sebut perintah + errornya.")

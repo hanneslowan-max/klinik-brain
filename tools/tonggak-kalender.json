@@ -1,0 +1,5 @@
+{
+  "_catatan": "Peta tonggak klinik di Google Calendar (dibaca tools/cek-tonggak.mjs). Kosong per 12 Nov 2026. Format entri disalin dari rhj-brain: {judul, tanggal (WIB, YYYY-MM-DD), kunci: [id kartu], lain: [id kartu]}.",
+  "kalender": "",
+  "tonggak": []
+}

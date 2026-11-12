@@ -1,0 +1,6 @@
+{
+  "_catatan": "Config tools/seo-peluang.py untuk klinik. Isi sesudah profil klinik terisi. merek = regex kueri bermerek (nama klinik) yang dikecualikan; benih = kata kunci awal untuk Google Autocomplete; tidak_dilayani = regex layanan yang TIDAK dibuka klinik (ditandai).",
+  "merek": "",
+  "benih": [],
+  "tidak_dilayani": ""
+}

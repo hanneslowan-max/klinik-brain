@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /opt/pw-browsers/chromium-1243/chrome-linux64/chrome --no-sandbox "$@"

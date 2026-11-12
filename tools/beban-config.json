@@ -1,0 +1,23 @@
+{
+  "_catatan": "Config tools/beban.mjs untuk klinik (disalin dari rhj-brain 12 Nov 2026, data orang RHJ dikosongkan). Ubah angka di sini, bukan di skrip. Perubahan kapasitas/ambang = keputusan Bapak, catat di LOG-PAGAR.",
+  "folder": [],
+  "list_tambahan": [],
+  "kapasitas_default": 4,
+  "kapasitas_poin_per_hari": {},
+  "ambang": {
+    "santai": 0.5,
+    "optimal": 0.8
+  },
+  "bobot_default": 1,
+  "bobot_default_awalan": {},
+  "tugas_rutin": [],
+  "alias": {},
+  "sales": [],
+  "abaikan": [
+    "hannes lowan"
+  ],
+  "libur": [],
+  "override": {},
+  "beban_tambahan": [],
+  "_catatan_rahasia": "RAHASIA: bobot & utilisasi hanya untuk Bapak. JANGAN tulis bobot/utilisasi di kartu, komentar, email tim, atau pesan ke pegawai."
+}
