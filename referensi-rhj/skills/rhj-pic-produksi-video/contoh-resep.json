@@ -1,0 +1,25 @@
+{
+  "kode": "CONTOH",
+  "_catatan": "Contoh format resep rakit. Path relatif ke folder resep. volume_klip (dB) hanya untuk klip yang punya audio; tanpa kunci = klip dibisukan. posisi teks: label, label2, hook, tengah, kartu, subtitle, cliff.",
+  "resolusi": [1080, 1920],
+  "fps": 30,
+  "font": null,
+  "shots": [
+    {"file": "klip/shot-01.mp4", "durasi": 3.0, "volume_klip": -20},
+    {"file": "klip/shot-02.mp4", "durasi": 2.5},
+    {"file": "klip/shot-03.mp4", "durasi": 3.5, "mulai_klip": 0.5}
+  ],
+  "audio": [
+    {"file": "audio/vo-01.mp3", "mulai": 3.2, "volume": 0}
+  ],
+  "teks": [
+    {"isi": "EPS 1 · KEPALA PABRIK BARU", "posisi": "label", "mulai": 0, "selesai": 9},
+    {"isi": "HARI KE-1", "posisi": "label2", "mulai": 0, "selesai": 9},
+    {"isi": "KEPALA PABRIK BARU MANA?", "posisi": "hook", "mulai": 0, "selesai": 3, "merah": ["MANA?"]},
+    {"isi": "Yang ngelas juga saya.", "posisi": "subtitle", "mulai": 3.2, "selesai": 5.5},
+    {"isi": "Bu Lastri · kepala pabrik", "posisi": "kartu", "mulai": 5.5, "selesai": 8.5, "kotak": true},
+    {"isi": "Tiga puluh hari.", "posisi": "subtitle", "mulai": 7.0, "selesai": 9, "miring": true, "warna": "#B51B1B"}
+  ],
+  "cover_detik": 1.0,
+  "keluaran": "draft-CONTOH.mp4"
+}
