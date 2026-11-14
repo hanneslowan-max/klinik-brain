@@ -2,7 +2,7 @@
 
 Status: SEBAGIAN TERISI — 12 Nov 2026 (wawancara pop-up). Bagian kosong = belum dijawab Bapak. Agent dilarang menebak isi bagian ini (ATURAN NOL).
 
-- Nama klinik / merek:
+- Nama klinik / merek: **HOPE** (Bapak, 14 Nov 2026). Lini B2B: nama belum diputuskan.
 - Badan usaha: belum ada / perorangan (12 Nov 2026)
 - Kota & alamat praktik (publik):
 - Jam praktik:
